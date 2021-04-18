@@ -1,0 +1,68 @@
+  
+.sign_up {
+    background-image: url("singupimages.png");
+    background-size: cover;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.dark_item{
+    background:rgba(0,0,0,0.5); 
+    width:100%;  
+    height:450px; 
+    position: absolute;  
+}
+.sign_up_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign_title {
+   line-height: 1.3; 
+   text-align: center;
+}
+.sign_text {
+   font-size: 10px;
+   letter-spacing:3px;
+   padding:10px 0;
+   line-height: 1.3;
+}
+.arrow {
+    background:url("arrow16.ico") center no-repeat;
+    width: 40px;
+    height: 40px;
+}
+.form-search {
+     padding-top:5px;
+     justify-content: center;
+     display: flex;
+    
+}
+.input-search-text {
+    color:white;
+    border: 1px solid white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;     
+    padding-left: 10px; 
+    background-color: rgba(0,0,0,0);
+    margin: 5px;
+}
+input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.btn_form {
+   margin-top: 10px;
+   background-color:rgb(209, 127, 127);   
+   text-transform: uppercase;
+   font-size: 14px;
+   font-family: 'Noto Sans JP', sans-serif;
+   text-align: center;
+   border: none;
+   color: white;
+}

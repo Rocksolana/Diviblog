@@ -1,0 +1,135 @@
+
+@media(min-width:768px) {
+    .conteiner {
+        max-width: 720px;
+    }
+    .col-xs-hidden {
+        display: none;
+      }
+      .col-sm-1 {
+        flex:0 0 8.333%;;
+        max-width: 8.333%;;
+    }
+    .col-sm-2 {
+        flex:0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .col-sm-3 {
+        flex:0 0 25%;
+        max-width: 25%;
+    }
+    .col-sm-4 {
+        flex:0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+    .col-sm-5 {
+        flex:0 0 41.666%;
+        max-width: 41.666%;
+    }
+    .col-sm-6 {
+        flex:0 0 50%;
+        max-width: 50%;
+    }
+    .col-sm-7 {
+        flex: 0 0 58.3333%;
+        max-width: 58.3333%;
+    }
+    .col-sm-8 {
+        flex: 0 0 66.3333%;;
+        max-width: 66.3333%;;
+    }
+    .col-sm-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+    .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .wrapper {
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .take_item {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .blog_image {
+        width: 100%;
+    }
+    .sign_title {
+        font-size: 26px;
+    }
+    .btn_form {
+        width: 59%;
+    }
+    .sign_title {
+        padding: 40px 0 0 0;
+     }
+     .slick-prev {
+        top: 221px;
+        position: relative;
+    }
+    .slick-next{
+        top: 221px;
+        position: relative;
+    }
+     
+}
+.container_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+}
+.designers,.take,.blog_item,.our_mission {
+    background-color: aliceblue;
+    color: rgb(209, 127, 127);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    position: relative;
+    top: -50px;
+    background-color:whitesmoke;
+    display: flex;
+    width: 100%;
+}
+.image {
+    width: 110%;
+    padding-top: 30px
+}
+.designer_item {
+    padding-left: 20px;
+}
+.red_small_title{
+    padding-top: 20px;
+    font-size: 14px;
+    color: rgb(209, 127, 127);
+}
+.red_big_title{
+    padding: 25px 0;
+}
+.text {
+    font-size: 14px;
+    line-height: 1.8;
+    font-style: italic;
+}
+.text_item {
+    color: grey;
+    line-height: 1.8;
+}
+@media(min-width:1200px) {
+    .conteiner {
+        max-width: 1140px;  
+    }
+    .wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;  
+    }
+}
