@@ -1,9 +1,6 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import {Route} from 'react-router-dom'
 import BlogListItem from "./BlogListItem"
 import blogs from "./Blog"
-import BlogNews from "./BlogNews/BlogNews"
 
 
 

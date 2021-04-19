@@ -28,9 +28,14 @@ const blogs = [
         description:"Panache is a feminine, premium Divi child theme created for small biz entrepreneurs and business women. This Divi child theme is largely built for coaches, copywriters, virtual assistants and social media guru’s.  We have included a free landing page layout for your online course sales pages and to market your coaching courses. ?",
         image:"images/coral-divi-child-theme.png",
       
-    }
+    },
     
 ]
+
+export const getProductsObject = (array) => array.reduce((obj,blog) => ({
+    ...obj,
+    [blog.id]:blog
+}),{})
 
 
 export default blogs
