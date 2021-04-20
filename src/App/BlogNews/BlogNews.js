@@ -1,5 +1,6 @@
 import React from 'react'
 import blogs, {getProductsObject} from '../Blog/Blog'
+import './BlogNews.css'
 
 const BlogNews = ({
  match,

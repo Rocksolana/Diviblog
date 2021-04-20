@@ -2,8 +2,7 @@ import React from 'react'
 import DesignerImage from './DesignerImage'
 import DesignerItem from './DesignerItem'
 import './main.css'
-import BlogNews from '../BlogNews/BlogNews'
-import { Route } from 'react-router-dom'
+
 
 
 const Main = () => {
@@ -38,7 +37,7 @@ const Main = () => {
                         </div>
                         
                     </div>
-                    <Route path="/blogs/:id" component={BlogNews}/>
+                    
                 </div>
             </div>
         </div>
