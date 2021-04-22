@@ -1,10 +1,10 @@
 import React from 'react'
-import blogs, {getProductsObject} from '../Blog/Blog'
+import blogs, {getBlogsObject} from '../Blog/Blog'
 import './BlogNews.css'
 
 const BlogNews = ({
  match,
- blogsItem = getProductsObject(blogs)
+ blogsItem = getBlogsObject(blogs)
 }) => {
  console.log(match)
  const id =match.params.id;

@@ -1,6 +1,8 @@
 import React from 'react'
 import DesignerImage from './DesignerImage'
 import DesignerItem from './DesignerItem'
+
+
 import './main.css'
 
 
@@ -8,6 +10,7 @@ import './main.css'
 const Main = () => {
     return (
         <>
+       
      <section className="designers">
         <div className="conteiner">
             <div className="row header-row">
@@ -24,6 +27,7 @@ const Main = () => {
             </div>
         </div>
     </section>
+    
     <section className="our_mission">
         <div className="conteiner">
             <div className="row header-row">
@@ -41,7 +45,10 @@ const Main = () => {
                 </div>
             </div>
         </div>
+
     </section>
+  
+   
     </>
     )
 }

@@ -4,7 +4,6 @@ import blogs from "./Blog"
 
 
 
-
 const BlogList = () => {
     return (
         <>

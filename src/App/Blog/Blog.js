@@ -32,7 +32,7 @@ const blogs = [
     
 ]
 
-export const getProductsObject = (array) => array.reduce((obj,blog) => ({
+export const getBlogsObject = (array) => array.reduce((obj,blog) => ({
     ...obj,
     [blog.id]:blog
 }),{})

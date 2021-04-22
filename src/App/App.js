@@ -1,5 +1,4 @@
 import React from 'react'
-
 import '../common/reset.css'
 import '../style.css'
 import Header from './Header/Header'
@@ -14,12 +13,14 @@ import { Route } from 'react-router-dom'
 
 
 
+
 const App = () => {
     return (
        <>
         <Header/>
         <Main/>
-        <Route path="/blogs/:id" component={BlogNews}/>
+      
+        <Route path="/blogs/:id" exact component={BlogNews}/>
         <BlogList/>
         <ReactSlickDemo/>
         <Form/>
