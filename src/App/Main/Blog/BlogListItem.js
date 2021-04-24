@@ -5,7 +5,6 @@ import './blog.css'
 
 
 
-
 const ColoredLine = ({ color }) => (
     <hr
         style={{

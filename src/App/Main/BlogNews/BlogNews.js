@@ -11,7 +11,7 @@ const BlogNews = ({
 
     return (
         <>
-        <h1 className="page-title">{blogsItem[id].name}</h1>
+        <h1 className="red_title">{blogsItem[id].name}</h1>
             <p dangerouslySetInnerHTML={{
                 __html:blogsItem[id].fullDesc
             }}></p>

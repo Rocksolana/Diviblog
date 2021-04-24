@@ -1,16 +1,19 @@
 import React from 'react'
 import DesignerImage from './DesignerImage'
 import DesignerItem from './DesignerItem'
+import BlogList from './Blog/BlogList'
+import Form from './Form/Form'
+import {Route} from 'react-router-dom' 
+import BlogNews from './BlogNews/BlogNews'
 
 
 import './main.css'
 
 
-
 const Main = () => {
     return (
-        <>
-       
+    
+      <>
      <section className="designers">
         <div className="conteiner">
             <div className="row header-row">
@@ -45,11 +48,15 @@ const Main = () => {
                 </div>
             </div>
         </div>
-
+    
     </section>
-  
-   
-    </>
+
+    <Route path="/blogs/:id" component={BlogNews}/>
+        
+        <BlogList/>
+        <Form/>
+ </>
+
     )
 }
 

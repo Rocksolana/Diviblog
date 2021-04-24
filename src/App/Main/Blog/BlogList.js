@@ -12,7 +12,8 @@ const BlogList = () => {
             <div className="row header-row">
                 <div className="col-sm-12">
                 {
-                    blogs.map(({
+                 /*   blogs.filter(item => item.category ==="Our latest").map(({*/
+                        blogs.map(({
                         id,
                         category,
                         name,
