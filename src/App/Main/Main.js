@@ -1,10 +1,12 @@
 import React from 'react'
+import {Route} from 'react-router-dom' 
 import DesignerImage from './DesignerImage'
 import DesignerItem from './DesignerItem'
 import BlogList from './Blog/BlogList'
 import Form from './Form/Form'
-import {Route} from 'react-router-dom' 
 import BlogNews from './BlogNews/BlogNews'
+
+
 
 
 import './main.css'
@@ -25,36 +27,22 @@ const Main = () => {
                         <div className="col-sm-8">
                             <DesignerItem/>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section className="our_mission">
-        <div className="conteiner">
-            <div className="row header-row">
-                <div className="col-sm-12">
-                    <div className="designer_item">
-                        <div className="take_title">
-                            THE BEST SELLERS
-                        </div>
-                        <div className="red_big_title">
-                            Our Latest Feminine Divi Themes & Divi Coaching Themes
-                        </div>
                         
+  
                     </div>
+                    <Route path="/" exact render={() => <BlogList/>}/>
+                    <Route path="/" exact render={() => <Form/>}/>
+                   
+                    <Route path="/blogs/:id" component={BlogNews}/>
                     
+                   
                 </div>
             </div>
         </div>
-    
     </section>
 
-    <Route path="/blogs/:id" component={BlogNews}/>
-        
-        <BlogList/>
-        <Form/>
+   
+       
  </>
 
     )

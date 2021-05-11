@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogListItem from "./BlogListItem"
-import blogs from "./Blog"
+import blogs from "./blogs"
 
 
 

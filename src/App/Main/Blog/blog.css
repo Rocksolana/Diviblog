@@ -397,3 +397,17 @@ body {
     width: 50%;
 }
   
+.blog_text {
+    font-size: 14px;
+    line-height: 1.8;
+    font-style: italic;
+    font-weight: 700;
+}
+.blognews_image {
+    max-width: 100%;
+    height: auto;
+}
+.blognews_pict, blognews_text {
+    display: flex;
+    flex-wrap: wrap;
+}

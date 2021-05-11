@@ -36,7 +36,7 @@ class BlogListItem extends Component {
                    <div className="take_desr">
                 <div><a href="/" className="category">{category}</a></div>
                 <div className="red_title">
-                    <Link to={`/blogs/${id}`}>{name}</Link></div>
+                <Link to={`/blogs/${id}`}>{name}</Link></div>
                 <ColoredLine color="rgb(209, 127, 127)"/>
                 <div className="text_item">{description}</div>
                 <button className="btn" id="btn-place"> Read more </button>
