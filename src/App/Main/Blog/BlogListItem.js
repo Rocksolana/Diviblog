@@ -30,9 +30,12 @@ class BlogListItem extends Component {
         return (
             <>
             <div className="take_item">
+            <div className="col-sm-6">
                <div>
                  <img src={image} alt={name} className="blog_image"/>
                  </div>
+                 </div>
+                 <div className="col-sm-6">
                    <div className="take_desr">
                 <div><a href="/" className="category">{category}</a></div>
                 <div className="red_title">
@@ -40,7 +43,7 @@ class BlogListItem extends Component {
                 <ColoredLine color="rgb(209, 127, 127)"/>
                 <div className="text_item">{description}</div>
                 <button className="btn" id="btn-place"> Read more </button>
-                
+                </div>
                   </div>
                 </div>
             </>

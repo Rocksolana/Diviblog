@@ -29,13 +29,14 @@ const Main = () => {
                         </div>
                         
   
-                    </div>
+                        <div className="col-sm-12">
                     <Route path="/" exact render={() => <BlogList/>}/>
-                    <Route path="/" exact render={() => <Form/>}/>
-                   
-                    <Route path="/blogs/:id" component={BlogNews}/>
                     
                    
+                    <Route path="/blogs/:id" component={BlogNews}/>
+                    </div>
+                    </div>
+                    <Route path="/" exact render={() => <Form/>}/>
                 </div>
             </div>
         </div>

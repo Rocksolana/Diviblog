@@ -170,7 +170,7 @@ body {
         font-size: 30px;
     }
     .blog_image {
-        width: 90%;
+        width: 100%;
     }
     .sign_title {
         font-size: 26px;
@@ -334,7 +334,7 @@ body {
 .text_item {
     color: grey;
     line-height: 1.8;
-    padding: 10px 0;
+    font-size: 12px;
 
 }
 .take_item {
@@ -367,8 +367,13 @@ body {
     
 }
 .red_title {
-    font-size: 32px;
+ font-size: 28px;
     padding-top: 15px;
+    color:rgb(209, 127, 127);
+}
+.red_title > a {
+    text-decoration: none;
+    color: grey;
 }
 .btn {
     background-color:rgb(209, 127, 127);
@@ -391,13 +396,17 @@ body {
       justify-content: center;
       align-items: center;
       display: flex;   
+      padding: 0;
+      height: 290px;
 }
 .take_desr {
     flex-wrap: wrap;
-    width: 50%;
+    width: 100%;
+    padding: 20px 0;
 }
   
 .blog_text {
+    padding: 10px;
     font-size: 14px;
     line-height: 1.8;
     font-style: italic;
@@ -407,7 +416,14 @@ body {
     max-width: 100%;
     height: auto;
 }
-.blognews_pict, blognews_text {
-    display: flex;
-    flex-wrap: wrap;
+.blognews_text {
+    padding-top:30px;
+}
+.red_title_item {
+    font-size: 20px;
+    padding: 25px 0 20px 0;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
