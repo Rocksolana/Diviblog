@@ -1,12 +1,13 @@
   
 .sign_up {
     background-image: url("singupimages.png");
-    background-size: cover;
+    
     height:450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    background-repeat: no-repeat;
+  
  
 }
 .dark_item{
