@@ -1,9 +1,11 @@
 import React from 'react'
 import Logo from './Logo/Logo'
 import Menu from './Menu/Menu'
+import HamburgerMenu from './Menu/Menu'
 
 
 import './header.css'
+import { ReactBurgerMenu } from 'react-burger-menu'
 
 
 const Header = () =>{
@@ -12,12 +14,15 @@ const Header = () =>{
         <div className="dark">
             <div className="conteiner">
                 <div className="row header-row">
+                <div className="col-sm-12">
                     <div className="col-sm-3">
                             <Logo/>
                          </div>
                     <div className="col-sm-9">
-                        <Menu/>
+                        <HamburgerMenu/>
                     </div>
+                
+                  </div>
                 </div>
             </div>
         </div>

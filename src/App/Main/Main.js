@@ -19,20 +19,17 @@ const Main = () => {
      <section className="designers">
         <div className="conteiner">
             <div className="row header-row">
-                <div className="col-sm-12">
+                <div className="col-xs-12">
                     <div className="wrapper">
-                        <div className="col-sm-4">
+                        <div className="col-sm-5">
                             <DesignerImage/>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col-sm-7">
                             <DesignerItem/>
                         </div>
                         
-  
-                        <div className="col-sm-12">
+                        <div className="col-xs-12">
                     <Route path="/" exact render={() => <BlogList/>}/>
-                    
-                   
                     <Route path="/blogs/:id" component={BlogNews}/>
                     </div>
                     </div>
@@ -41,8 +38,6 @@ const Main = () => {
             </div>
         </div>
     </section>
-
-   
        
  </>
 

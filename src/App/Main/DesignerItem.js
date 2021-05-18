@@ -29,7 +29,7 @@ const Designer_item = () => {
             style.
         </div>
         <ColoredLine color="rgb(209, 127, 127)"/>
-        <div className="text_item">
+        <div className="designer_text">
             Are you looking for a feminine, premium WordPress Theme that will take your business
             to
             the next level? You are? Well, we meticulously and carefully craft modern Divi Child

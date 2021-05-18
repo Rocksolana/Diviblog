@@ -4,16 +4,15 @@ import blogs from "./blogs"
 
 
 
-const BlogList = () => {
+const BlogList = (category) => {
     return (
         <>
     <div className="blog_item">
         <div className="conteiner">
             <div className="row header-row">
-                <div className="col-sm-12">
+             
                 {
-                 /*   blogs.filter(item => item.category ==="Our latest").map(({*/
-                        blogs.map(({
+                    blogs.filter(item => item.category === "Our latest").map(({
                         id,
                         category,
                         name,
@@ -21,7 +20,7 @@ const BlogList = () => {
                         image
                     }) => (
                     
-                        <div className="col-sm-12" key={id}>
+                        <div key={id}>
                             <BlogListItem
                                 id ={id}
                                 name={name}
@@ -34,7 +33,7 @@ const BlogList = () => {
                 }
               
               
-            </div>
+          
          </div>
       </div>
   </div>

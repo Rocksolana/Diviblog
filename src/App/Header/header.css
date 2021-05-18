@@ -5,11 +5,10 @@
     display: flex;
     align-items: center;
     justify-content: center;  
-    width: 100%;
+   
 }
 .dark { 
-    background:rgba(0,0,0,0.5); 
-    width:100%;  
+    background:rgba(0,0,0,0.5);  
     height:530px;
     position: absolute; 
     display: flex;
