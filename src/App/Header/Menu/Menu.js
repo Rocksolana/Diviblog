@@ -85,13 +85,14 @@ const Navigation = styled.nav`
 `;
 
 const List = styled.ul`
-  position: absolute;
+  position:absolute;
   list-style: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+
 `;
 const ItemLink = styled(NavLink)`
   display: inline-block;

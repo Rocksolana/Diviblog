@@ -29,7 +29,8 @@ class BlogListItem extends Component {
         
         return (
             <>
-            <div className="take_item">
+       
+        <div className="take_item">
             <div className="col-sm-6">
                <div>
                  <img src={image} alt={name} className="blog_image"/>
@@ -44,8 +45,9 @@ class BlogListItem extends Component {
                 <div className="text_item">{description}</div>
                 <button className="btn" id="btn-place"> Read more </button>
                 </div>
-                  </div>
-                </div>
+            </div>
+        </div>
+          
             </>
         )
     }

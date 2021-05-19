@@ -576,4 +576,15 @@ input::placeholder {
     content: 'Next';
 }
   
-
+.ul {
+    display: flex;
+    list-style: none;
+    top: 50%;
+    
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+    display: inline;
+}

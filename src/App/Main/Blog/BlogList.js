@@ -10,9 +10,11 @@ const BlogList = (category) => {
     <div className="blog_item">
         <div className="conteiner">
             <div className="row header-row">
+            <div className="col-sm-12">
              
                 {
-                    blogs.filter(item => item.category === "Our latest").map(({
+                 /*  blogs.filter(item => item.category === "Our latest").map(({*/
+                   blogs.map(({
                         id,
                         category,
                         name,
@@ -20,7 +22,7 @@ const BlogList = (category) => {
                         image
                     }) => (
                     
-                        <div key={id}>
+                        <div className="col-sm-12" key={id}>
                             <BlogListItem
                                 id ={id}
                                 name={name}
@@ -33,7 +35,7 @@ const BlogList = (category) => {
                 }
               
               
-          
+          </div>
          </div>
       </div>
   </div>
