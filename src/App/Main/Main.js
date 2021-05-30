@@ -6,13 +6,13 @@ import BlogList from './Blog/BlogList'
 import Form from './Form/Form'
 import BlogNews from './BlogNews/BlogNews'
 
-
-
-
 import './main.css'
 
 
-const Main = () => {
+
+const Main = ({
+    addLikeToCart
+}) => {
     return (
     
       <>
@@ -30,7 +30,11 @@ const Main = () => {
                         
                         <div className="col-xs-12">
                     <Route path="/" exact render={() => <BlogList/>}/>
+                    
                     <Route path="/blogs/:id" component={BlogNews}/>
+                    <Route path="/LikePage" exact render={() => <BlogList
+                    addLikeToCart={addLikeToCart}
+                    /> } />
                     </div>
                     </div>
                     <Route path="/" exact render={() => <Form/>}/>
