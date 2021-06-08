@@ -7,6 +7,7 @@ const COLORS = {
   primaryLight: "#grey",
 };
 
+
 const MenuLabel = styled.label`
   background-color: ${COLORS.primaryLight};
   position: fixed;
@@ -96,7 +97,7 @@ const List = styled.ul`
 `;
 const ItemLink = styled(NavLink)`
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
   color:rgb(209, 127, 127);
   font-weight: 300;
   text-decoration: none;
@@ -106,7 +107,7 @@ const ItemLink = styled(NavLink)`
     120deg,
     transparent 0%,
     transparent 50%,
-    #fff 50%
+    rgb(163, 95, 95) 50%
   );
   background-size: 240%;
   transition: all 0.6s;
